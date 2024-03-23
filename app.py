@@ -7,7 +7,6 @@ from azure.storage.blob import BlobServiceClient
 app = Flask(__name__)
 
 # Initialize Azure Blob Storage connection
-blob_service_client = BlobServiceClient.from_connection_string("DefaultEndpointsProtocol=https;AccountName=storageappdemo1;AccountKey=BFez0PUpQlgMwQ9RUuNko4nSGPOb+C8cwWhmhb/gZR7AbuyRAeJVPA5bfzcVC3gzkFJF0kEElbaP+AStnPr47w==;EndpointSuffix=core.windows.net")
 container_name = "uploads"  # Replace with your Azure Blob Storage container name
 
 
